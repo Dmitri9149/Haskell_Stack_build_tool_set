@@ -1,6 +1,7 @@
-module Lib
-    ( someFunc
-    ) where
+module AddStr where
 
-someFunc :: IO ()
-someFunc = putStrLn "someFunc"
+import           Data.Char
+
+isAllDigits :: String -> Bool
+isAllDigits val = all (== True)
+  $ map (\x -> x `elem` ['1', '2', '3', '4', '5', '6', '7', '8', '9']) val
