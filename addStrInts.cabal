@@ -1,6 +1,6 @@
 cabal-version: 1.12
 
--- This file has been generated from package.yaml by hpack version 0.33.0.
+-- This file has been generated from package.yaml by hpack version 0.31.2.
 --
 -- see: https://github.com/sol/hpack
 --
@@ -8,12 +8,12 @@ cabal-version: 1.12
 
 name:           addStrInts
 version:        0.1.0.0
-description:    Please see the README on GitHub at <https://github.com/githubuser/addStrInts#readme>
-homepage:       https://github.com/githubuser/addStrInts#readme
-bug-reports:    https://github.com/githubuser/addStrInts/issues
-author:         Author name here
-maintainer:     example@example.com
-copyright:      2020 Author name here
+description:    Please see the README on GitHub at <https://github.com/dmitri9149/addStrInts#readme>
+homepage:       https://github.com/dmitri9149/addStrInts#readme
+bug-reports:    _
+author:         Dmitri
+maintainer:     _@_
+copyright:      2020 Dmitri
 license:        BSD3
 license-file:   LICENSE
 build-type:     Simple
@@ -27,7 +27,7 @@ source-repository head
 
 library
   exposed-modules:
-      Lib
+      AddStr
   other-modules:
       Paths_addStrInts
   hs-source-dirs:
