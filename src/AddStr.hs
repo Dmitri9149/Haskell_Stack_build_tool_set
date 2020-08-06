@@ -3,5 +3,5 @@ module AddStr where
 import           Data.Char
 
 isAllDigits :: String -> Bool
-isAllDigits "" == False
+isAllDigits "" = False
 isAllDigits val = all (== True) $ map isDigit val
