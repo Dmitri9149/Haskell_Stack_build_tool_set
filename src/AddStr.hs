@@ -12,3 +12,9 @@ strAddInts a b
   | not (isAllDigits a || isAllDigits b) = Left "Both args are wrong"
   | not (isAllDigits a)                  = Left "First arg is wrong"
   | otherwise                            = Left "Second ars is wrong"
+
+displayResult :: Either String Int -> String
+displayResult (Left  addError) = "error: " ++ show addError
+displayResult (Right res     ) = "answer: " ++ show res
+
+
