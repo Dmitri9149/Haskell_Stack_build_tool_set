@@ -1,5 +1,3 @@
-main :: IO ()
-main = putStrLn "Test suite not yet implemented"
 import           AddStr
 
 main :: IO ()
