@@ -34,7 +34,6 @@ library
       src
   build-depends:
       base >=4.7 && <5
-      QuickCheck
   default-language: Haskell2010
 
 executable addStrInts-exe
@@ -60,4 +59,5 @@ test-suite addStrInts-test
   build-depends:
       addStrInts
     , base >=4.7 && <5
+    , QuickCheck
   default-language: Haskell2010
